@@ -1,0 +1,5 @@
+# Difference between dynamic frame and Spark frame:
+ - A DynamicFrame is similar to a DataFrame, except that each record is self-describing, so no schema is required initially. Instead, AWS Glue computes a schema on-the-fly.
+ - You want to use DynamicFrame when,Data that does not conform to a fixed schema. toDF()
+ - When switching to DF, you can use pyspark utility.
+
